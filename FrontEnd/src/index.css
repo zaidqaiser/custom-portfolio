@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+:root {
+  --pale-dogwood: #fac9b8ff;
+  --pale-azure: #63d2ffff;
+  --aquamarine: #a4f9c8ff;
+  --steel-blue: #2081c3ff;
+  --black-olive: #232e21ff;
+}
+
+*{
+  font-family: "SUSE Mono", sans-serif;
+}
