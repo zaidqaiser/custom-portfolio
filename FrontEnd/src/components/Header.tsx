@@ -10,12 +10,15 @@ const Header = () => {
           </li>
         ))}
         <li className="">
-          <button className="button">
-            <span className="button_lg">
-              <span className="button_sl"></span>
-              <span className="button_text">Resume</span>
-            </span>
-          </button>
+          <a href="/resume/ZaidQaiser-Resume.pdf"
+            download="ZaidQaiser-Resume.pdf">
+              <button className="button">
+              <span className="button_lg">
+                <span className="button_sl"></span>
+                <span className="button_text">Resume</span>
+              </span>
+            </button>
+          </a>
         </li>
       </ul>
     </div>
@@ -23,3 +26,4 @@ const Header = () => {
 };
 
 export default Header;
+
