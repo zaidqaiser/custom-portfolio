@@ -1,21 +1,26 @@
 export const Projects = () => {
   const projects = [
     {
-      title: "WiFi QR Code Generator",
-      description: "A simple tool to generate WiFi QR codes instantly using HTML, CSS, and JavaScript.",
-      image: "/project1.png",
-      link: "https://github.com/zaidqaiser/wifi-qr-code",
+      title: "Rock Paper Scissor Game",
+      description:
+        "A simple and minimal rock paper scissor game using React, tailwindCss and Js",
+      image:
+        "https://private-user-images.githubusercontent.com/114343092/341811644-90735019-a642-4f1a-b63c-801121c4e8ec.PNG?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjAyODgwMjIsIm5iZiI6MTc2MDI4NzcyMiwicGF0aCI6Ii8xMTQzNDMwOTIvMzQxODExNjQ0LTkwNzM1MDE5LWE2NDItNGYxYS1iNjNjLTgwMTEyMWM0ZThlYy5QTkc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMDEyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTAxMlQxNjQ4NDJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hNDczZGExMDNiNGQ3Njc1MjY4MmFmNTE3MzgzNWZmZTM2MmU4NmM4YTBlZjFhNzM5OTZlN2QxZWY2MDJkZGZiJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.MYpyNUsSprY-eCUg8-5bBztq9OqAxyoNWALBqVm49oI",
+      link: "https://github.com/zaidqaiser/Rock-Paper-Scissor-Game",
     },
     {
       title: "Smart Attendance Tracker",
-      description: "React + Django full-stack attendance system with face recognition and role-based access.",
+      description:
+        "React + Django full-stack attendance system with face recognition and role-based access.",
       image: "/smrt.png",
       link: "https://github.com/zaidqaiser",
     },
     {
       title: "Fivem Loading Screen",
-      description: "Enhance the loading experience for your FiveM server, supporting both ESX and QBcore frameworks",
-      image: "https://private-user-images.githubusercontent.com/114343092/341990840-bcf137ee-d5d0-4356-b57d-842e42c4876b.PNG?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjAyODY4MjYsIm5iZiI6MTc2MDI4NjUyNiwicGF0aCI6Ii8xMTQzNDMwOTIvMzQxOTkwODQwLWJjZjEzN2VlLWQ1ZDAtNDM1Ni1iNTdkLTg0MmU0MmM0ODc2Yi5QTkc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMDEyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTAxMlQxNjI4NDZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0wZTExNmMzZTllODFkZWRhMzhmMjg5MjFmYjhjMzA0NzE2Y2VlNTZhYWI1MzdkY2MyMWFlNWRiMjY4ZWMzYzk1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.dRqTrE47m0DKIgIXFnOM90wUK1CYzUa12woOwsiF70g",
+      description:
+        "Enhance the loading experience for your FiveM server, supporting both ESX and QBcore frameworks",
+      image:
+        "https://private-user-images.githubusercontent.com/114343092/341990840-bcf137ee-d5d0-4356-b57d-842e42c4876b.PNG?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjAyODY4MjYsIm5iZiI6MTc2MDI4NjUyNiwicGF0aCI6Ii8xMTQzNDMwOTIvMzQxOTkwODQwLWJjZjEzN2VlLWQ1ZDAtNDM1Ni1iNTdkLTg0MmU0MmM0ODc2Yi5QTkc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMDEyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTAxMlQxNjI4NDZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0wZTExNmMzZTllODFkZWRhMzhmMjg5MjFmYjhjMzA0NzE2Y2VlNTZhYWI1MzdkY2MyMWFlNWRiMjY4ZWMzYzk1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.dRqTrE47m0DKIgIXFnOM90wUK1CYzUa12woOwsiF70g",
       link: "https://github.com/zaidqaiser/FiveM-LoadingScreen--Latest",
     },
   ];
@@ -51,9 +56,12 @@ export const Projects = () => {
                 href={project.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-3 inline-block text-[var(--black-olive)] bg-[var(--pale-dogwood)] px-6 py-2 rounded-full font-medium hover:scale-105 transition-transform duration-300 text-center"
+                className="button mt-4 inline-block text-center"
               >
-                View Project
+                <span className="button_lg">
+                  <span className="button_sl"></span>
+                  <span className="button_text">View Project</span>
+                </span>
               </a>
             </div>
           </div>

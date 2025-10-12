@@ -1,4 +1,3 @@
-import { About } from "./components/About";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
 import Header from "./components/Header";
@@ -15,7 +14,6 @@ function App() {
       <div className="w-[90%] container">
         <Header />
         <HeroPage />
-        <About />
         <Skills />
         <Projects />
         <Testimonials />
