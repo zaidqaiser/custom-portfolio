@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <div className="text-[var(--pale-dogwood)] p-10 flex items-center justify-between">
+    <header className="text-[var(--pale-dogwood)] py-6 px-8 flex items-center justify-between sticky top-0 z-50 bg-[var(--black-olive)] bg-opacity-80 backdrop-blur-md">
       <img src="/logo.svg" alt="logo" width={60} className="cursor-pointer hover:scale-[1.2] transition-transform duration-500" />
       <ul className="flex items-center gap-18 font-bold text-2xl justify-end cursor-pointer">
         {["Zaid", "Projects"].map((item) => (
@@ -21,7 +21,7 @@ const Header = () => {
           </a>
         </li>
       </ul>
-    </div>
+    </header>
   );
 };
 
